@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Geo Info</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>TimeZone API</h1>
+
+  <!-- Section 1: Current Location -->
+  <section>
+    <h2>Your Current Location Info</h2>
+    <div id="demo" class="result"></div>
+  </section>
+
+  <!-- Section 2: Address Lookup -->
+  <section>
+    <h2>Enter Address</h2>
+    <input type="text" id="addressInput" placeholder="Enter address">
+    <button onclick="fetchAddressData()">Get Info</button>
+    <div id="addressResult" class="result"></div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
